@@ -12,3 +12,5 @@
 - [创建计算字段](./docs/compute.md)
 - [常用函数](./docs/function.md)
 - [聚集函数](./docs/aggregate.md)
+- [分组数据](./docs/groupby.md)
+- [子查询](./docs/subquery.md)

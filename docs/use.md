@@ -17,7 +17,9 @@ SHOW TABLES;
 
 ```sql
 /* 展示数据库 classicmodels 中表 employees 的所有列 */
-SHOW COLUMNS FROM employees;
+SHOW COLUMNS 
+FROM
+ employees;
 
 /* 等同于  */
 DESCRIBE employees;
@@ -29,7 +31,7 @@ SHOW STATUS;
 ```
 
 ```sql
-/* 分别用来显示创建特定数据库或表的 MySQLm语句 */
+/* 分别用来显示创建特定数据库或表的 MySQL 语句 */
 SHOW CREATE DATABASE;
 SHOW CREATE TABLE;
 ```
